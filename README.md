@@ -1,4 +1,5 @@
 # docker-app
+<<<<<<< HEAD
 
 This is a sample application to demonstrate some of the docker capabilities
 
@@ -40,3 +41,6 @@ docker-compose -d up
 # To shutdown the containers gracefully
 docker-compose -d down
 ```
+=======
+A sample docker app 
+>>>>>>> 1a5b6c11edb52eb732c04cd98b550f614328d352
