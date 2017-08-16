@@ -48,6 +48,7 @@ create 2 More VMs, install docker on them(VM2 and VM3)
 https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
 
 #Create docker cluster
+
 docker swarm init
 
 join from other VMs, so that all 3 VMs are in a cluster
@@ -66,5 +67,5 @@ docker service scale db=3
 docker service ls
 
 and
-docker service service ps db
+docker service ps db
 ```
