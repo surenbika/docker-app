@@ -13,7 +13,7 @@ To start or stop the test database, build the test-database image and run it:
 ```bash
 cd ./test-database
 docker build -t test-database .
-docker run --name db test-database 
+docker run -it -p 3306:3306 test-database
 ```
 
 ```bash
@@ -40,3 +40,4 @@ docker-compose up
 # To shutdown the containers gracefully
 docker-compose down
 ```
+
