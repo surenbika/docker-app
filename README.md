@@ -44,10 +44,10 @@ docker-compose down
 # To scale up:
 create 2 More VMs, install docker on them(VM2 and VM3)
 
-install docker swarm on VM1
+#Install docker swarm on VM1
 https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/
 
-create docker cluster
+#Create docker cluster
 docker swarm init
 
 join from other VMs, so that all 3 VMs are in a cluster
